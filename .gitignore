@@ -1,0 +1,19 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.idea/
+.vscode/
+
+# Temporary and log files
+*.tmp
+*.temp
+*.log
+~$*
+
+# Tableau temporary files
+*.twbr
+*.tfl
+*.tflx
