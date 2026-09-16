@@ -2,7 +2,7 @@
 
 ## Project Objective
 
-This project presents an interactive marketing performance dashboard that consolidates Facebook Ads and Google Ads data into a single analytical view. It enables business users to monitor advertising spend, engagement, lead generation, campaign efficiency, and return on marketing investment across channels, campaigns, ad sets, and UTM campaigns.
+This project presents an interactive ad campaign efficiency dashboard that consolidates Facebook Ads and Google Ads data into a single analytical view. It enables business users to monitor advertising spend, engagement, lead generation, campaign efficiency, and return on marketing investment across channels, campaigns, ad sets, and UTM campaigns.
 
 ## Data Sources
 
@@ -15,7 +15,7 @@ The final dataset was prepared from four PostgreSQL tables:
 
 The repository includes the final analytical CSV export used by Tableau. The original database tables are not included.
 
-To explore the result without the original tables, open `tableau/marketing_performance_dashboard.twb` in Tableau and connect it to `data/Onishchuk_Project_2.csv`. Re-running `sql/marketing_data.sql` requires the four source tables named above in PostgreSQL; the included CSV is the query output, not a replacement for those tables.
+To explore the result without the original tables, open `tableau/ad_campaign_efficiency_dashboard.twb` in Tableau and connect it to `data/Onishchuk_Project_2.csv`. Re-running `sql/marketing_data.sql` requires the four source tables named above in PostgreSQL; the included CSV is the query output, not a replacement for those tables.
 
 ## Data Preparation
 
@@ -95,7 +95,7 @@ ad_campaign_efficiency_dashboard/
 ├── sql/
 │   └── marketing_data.sql
 └── tableau/
-    └── marketing_performance_dashboard.twb
+    └── ad_campaign_efficiency_dashboard.twb
 ```
 
 ## Key Skills Demonstrated
