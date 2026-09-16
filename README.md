@@ -1,4 +1,4 @@
-#  Ad Campaign Efficiency Dashboard
+# Ad Campaign Efficiency Dashboard
 
 ## Project Objective
 
@@ -85,7 +85,7 @@ The Tableau dashboard includes:
 ## Repository Structure
 
 ```text
-marketing-performance-dashboard/
+ad_campaign_efficiency_dashboard/
 ├── README.md
 ├── .gitignore
 ├── data/
