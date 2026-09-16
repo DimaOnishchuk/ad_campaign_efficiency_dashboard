@@ -15,6 +15,8 @@ The final dataset was prepared from four PostgreSQL tables:
 
 The repository includes the final analytical CSV export used by Tableau. The original database tables are not included.
 
+To explore the result without the original tables, open `tableau/marketing_performance_dashboard.twb` in Tableau and connect it to `data/Onishchuk_Project_2.csv`. Re-running `sql/marketing_data.sql` requires the four source tables named above in PostgreSQL; the included CSV is the query output, not a replacement for those tables.
+
 ## Data Preparation
 
 Data preparation was completed in PostgreSQL and DBeaver:
@@ -40,6 +42,19 @@ The complete preparation query is available in [`sql/marketing_data.sql`](sql/ma
 - **ROMI (Return on Marketing Investment):** `(value - spend) / spend`.
 - **Clicks to Leads Conversion:** leads divided by clicks.
 - **Reach to Leads Conversion:** leads divided by reach.
+
+## Findings from the exported data
+
+Across the dated records from **2020-11-11 to 2022-11-05**, the exported dataset gives the following channel totals. CPL and ROMI use the formulas defined above.
+
+| Channel | Spend | Leads | CPL | ROMI |
+| --- | ---: | ---: | ---: | ---: |
+| Facebook | 19,576,773 | 8,819 | 2,219.84 | 26.27% |
+| Google | 9,045,294 | 3,437 | 2,631.74 | 12.76% |
+
+Facebook has the lower cost per lead and higher ROMI in this dataset. A useful next step is to compare campaigns within each channel before changing budget allocation: the channel totals do not account for differences in campaign goals or audience mix. Here, `value` is the supplied conversion value, so the ROMI calculation is based on that field rather than verified profit.
+
+The CSV has one additional record with a missing date and zero values in every numeric field. It does not change these totals but should be excluded from date-based views.
 
 ## Dashboard Features
 
@@ -96,4 +111,4 @@ marketing-performance-dashboard/
 
 ## Tableau Public
 
-Explore the interactive dashboard on [Tableau Public](https://public.tableau.com/views/MarketingPerformanceDashboard_17883689939640/AdCampaignEfficiencyDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+Explore the interactive dashboard on [Tableau Public](https://public.tableau.com/app/profile/dmytro.onishchuk/viz/Onishchuk_PJ2_Tableau/AdCampaignEfficiencyDashboard). This is the same published workbook linked in the dashboard preview above and named in the included `.twb` file.
