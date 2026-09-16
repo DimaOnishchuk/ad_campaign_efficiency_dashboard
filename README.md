@@ -71,7 +71,7 @@ The Tableau dashboard includes:
 
 ## Dashboard Preview
 
-[![Ad Campaign Efficiency Dashboard](images/ad_campaign_efficiency_dashboard.png)](https://public.tableau.com/app/profile/dmytro.onishchuk/viz/Onishchuk_PJ2_Tableau/AdCampaignEfficiencyDashboard)
+[![Ad Campaign Efficiency Dashboard](images/ad_campaign_efficiency_dashboard.png)](https://public.tableau.com/views/MarketingPerformanceDashboard_17883689939640/AdCampaignEfficiencyDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Tools
 
