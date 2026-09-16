@@ -96,4 +96,4 @@ marketing-performance-dashboard/
 
 ## Tableau Public
 
-Explore the interactive dashboard on [Tableau Public](https://public.tableau.com/app/profile/dmytro.onishchuk/viz/Onishchuk_PJ2_Tableau/AdCampaignEfficiencyDashboard).
+Explore the interactive dashboard on [Tableau Public](https://public.tableau.com/views/MarketingPerformanceDashboard_17883689939640/AdCampaignEfficiencyDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
